@@ -1,4 +1,4 @@
-from dill import dill
+import dill
 from kombu.serialization import pickle_loads, pickle_protocol, registry
 from kombu.utils.encoding import str_to_bytes
 
